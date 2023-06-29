@@ -1,0 +1,618 @@
+body{
+    margin:  0 0;
+}
+.head-top{
+    background-color: #064074;
+    display: flex;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+.row{
+    background-color: #064074;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    padding: 5px 0px;
+    color: white; 
+}
+.col-left{
+    display: flex;
+    width: 70%;
+}
+.header1{
+    display: flex;
+    width: 14%;
+    align-items: center;
+}
+.header2{
+    width: 50%;
+    opacity: 0.5;
+}
+.col-right{
+    width: 30%;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+}
+
+.menu{
+    font-size: 16px;  
+}
+.menu a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+.icon i{
+    margin: 0 3px;
+}
+.head-mid{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    padding-top: 50px;
+}
+.header-button{
+    align-items: start;
+    width: 40%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.search{
+    width: 40%;
+    padding-left: 280px;
+}
+.head-bot{
+    padding-top: 30px ;
+}
+
+*{
+    box-sizing: border-box;
+}  
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(214, 209, 209);
+    float: left;
+    width: 80%;
+    height: 30px;
+    background: white;
+}
+
+form.example button {
+    float: left;
+    width: 15%;
+    padding: 3px;
+    height: 30px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* cursor: pointer; */
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+/* form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+.menu2{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+.menu2 a{
+    padding: 10px 17px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-head{
+    display: flex;
+    padding: 30px 0px;
+}
+.separator{
+    height: 4px;
+    background: #646464;
+    width: 30px;
+    margin:15px 0;
+}
+.footer{
+    background: #EFEFEF;
+    width: 100%;
+}
+.footer-head{
+    width: 80%;
+    margin: auto;
+    
+}
+.address{
+    width: 50%;
+}
+.address p{
+    font-size: 17px;
+}
+.fanpage{
+    width: 50%;
+}
+.fanpage-main{
+    position: relative;
+    width: 100%;
+}
+.fanpage-top{
+    display: flex;
+    position: absolute;
+    font-size: 12px;
+    top: 0;
+    color: white;
+    margin: 10px 10px;
+}
+.col-rightfanpage{
+    margin-left: 5px;
+
+}
+.monitorfanpage{
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    padding: 2px 6px;
+    margin: 10px 10px;
+    font-size: 14px;
+}
+.shopping{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    padding: 3px 10px;
+    background: white;
+    margin: 10px 10px;
+}
+.footer-fanpage{
+    height: 60px ;
+    display: flex;
+    background: white;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.footer-main{
+    background: #212121;
+    color: white;
+    padding: 30px 0;
+}
+.footermain-row{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.menu-thongtin{
+    list-style-type: none;
+    padding: 0 0px;
+}
+.menu-thongtin hr{
+    background-color: #828080;
+    margin: 10px 0;
+}
+.menu-thongtin a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.logo-nganhang{
+    display: flex;
+    justify-content: center;
+}
+.logo-nganhang img{
+    width: 20px;
+    margin: 10px 15px;
+}
+.footer-bot{
+    margin: auto;
+    text-align: center;
+    background: black;
+}
+.container-bot{
+    width: 80%;
+    margin: auto;
+    color: white;
+    opacity: 0.5;
+    padding: 20px 0px;
+}
+
+.banner{
+    background: url(img/main.jpg);
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.text-inner{
+    /* width: 400px; */
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    text-align: center;
+}
+.button-text{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.button-text button{
+    margin-top: 10px;
+    background: #064074;
+    color: white;
+    padding: 10px;
+    border: none;
+    transition: transform 0.4s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.button-text button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+}
+.row-sub{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 20px;
+    margin: 20px auto;
+}
+.sub-item{
+    height: 100px;
+    text-align: center;
+    box-shadow: 0px 1px 2px gray;
+    padding: 5px 5px;
+    transition: transform 0.4s ease;
+}
+.sub-item:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.sub-item img{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.a-table{
+    margin: auto;
+    overflow: hidden;
+}
+.table tr th{
+    background: #F6F6F6;
+    color: #666666;
+}
+.table tr td{
+    opacity: 0.5;
+}
+
+.category{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.category img{
+    margin: 20px 0px;
+    width: 370px;
+    height: 150px;
+    transition: transform 0.4s ease;
+}
+.category img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.news{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.news-item img{
+    width: 350px;
+    height: 150px;
+}
+.news-item h5{
+    display: flex;
+    justify-content: center;
+}
+.news-item{     
+    text-align: center; 
+    margin: 20px 0;
+    padding: 0 0;
+    transition: border-bottom 0.4s ease;
+}
+.news-item:hover{
+    border-bottom: 1px solid black;
+}
+.promotion{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}
+.itempromotion{
+    margin: 40px;
+    display: flex;
+}
+.itempromotion i:hover{
+    color: red;
+}
+.itempromotion input{
+    padding: 0 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background: #F7F7F7;
+    border: 1px solid #bdb9b9;
+}
+.itempromotion button{
+    width: 100px;
+    height: 40px;
+    background: #05335D;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.head{
+    padding-bottom: 10px;
+    box-shadow: 5px 0px 10px gray;
+    margin-bottom: 5px;
+}
+.title{
+    background-image: url(img/dongho.jpg);
+    width: 100%;
+    height: 100px;  
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h3{
+    text-shadow: 1px 2px 1px gray;
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.maingioithieu{
+    font-size: 17px;
+    opacity: 0.9;
+}
+.mainbaohanh p{
+    margin: 20px;
+}
+.mainbaohanh li{
+    margin: 20px;
+}
+.mainbaohanh h5{
+    margin: 20px;
+}
+.buttongioithieu{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.buttongioithieu button{
+    padding: 5px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #1F5382;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 5px 10px;
+    transition: transform 0.4s ease;
+}
+.buttongioithieu button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px gray;
+}
+.content{
+    display: flex;
+    margin: 20px 0;
+}
+.large{
+    padding-right: 30px;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+.item-large{
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 10px 20px rgb(185, 183, 183);
+    transition: transform 0.4s ease;
+}
+.item-large img{
+    width: 300px;   
+    height: 170px;
+}
+.date{
+    width: 50px;
+    border: 3px solid blue;
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    background-color: white;
+    font-size: 14px;
+}
+.item-large:hover{
+    transform: translateY(-10px);
+}
+.item-large:hover .date{
+    background: blue;
+    color: white;
+}
+.post{
+    margin-left: 30px;
+}
+.item-post{
+    margin-bottom: 10px;
+    display: flex;
+    width: 220px;
+    border-bottom: 0.5px solid gainsboro;
+}
+.item-post img{
+    width: 50px;
+    height: 50px;
+}
+.item-post p:first-child{
+    margin: 0 0px;
+}
+.item-post p:last-child{
+    opacity: 0.5;
+    font-size: 10px;
+}
+.item-right{
+    padding: 0 30px;
+    margin-top: 20px;
+}
+.item-post div{
+    margin-left: 10px;
+}
+
+.left-post{
+    width: 80%;
+    margin-left: 20px;
+    padding: 0 20px;
+    box-shadow: 0 10px 20px gainsboro;
+}
+.left-post img{
+    width: 100%;
+    height: 600px;
+}
+.left-post i{
+    font-size: 25px; opacity: 0.5;
+}
+.left-post .icon{text-align: center;}
+.title2{
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+}
+.title2 p{
+    width: 15%;
+    margin: 0 50px;
+}
+.khuyenmai{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.item-khuyenmai{
+    text-align: center;
+    margin: 20px 0px;
+}
+.item-khuyenmai img{
+    width: 300px;
+}
+.item-khuyenmai button{
+    width: 130px;
+    height: 40px;
+    background: white;
+    border: 2px solid #064074;
+    color: #064074;
+}
+.item-khuyenmai button:hover{
+    background: #064074;
+    color: white;
+    transition: 0.3s ease;
+}
+/* css cho ipad */
+@media(min-width:768px) and (max-width:1023px){
+
+}
+ /* css cho mobile */
+ @media(max-width:767px){
+    .menu2{
+        display: inline-block;
+    }
+    .search {
+        width: 100%;
+        padding-left: 0;
+    }
+    .head{
+        width: 100%;
+    }
+    .head-mid{
+        /* width: 100%; */
+        display: inline-block;
+        margin: 50px 0;
+    }
+    .footer-head{
+        display: grid;
+    }
+    .footermain-row{
+        display: block;
+    }
+    .promotion{
+        display: block;
+    }
+    .head-mid{
+        display: block;
+        margin: auto;
+    }
+    .fanpage{
+        width: 100%;
+    }
+    .khuyenmai{
+        display: block;
+    }
+    .row{
+        display: block;
+    }
+    .col-left{
+        display: block;
+    }
+    .header2{
+        width: 100%;
+    }
+    .col-right{
+        width: 100%;
+    }
+    .col-right i{
+        display: none;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+    .header-button {
+        align-items: start;
+        width: 80%;
+        margin: 40px auto 0px;
+    }
+    .row-sub {
+        display: inline-block;
+        margin: 20px auto;
+    }
+    .category {
+        margin: auto;
+        display: inline-block;
+    }
+    .news {
+        margin: auto;
+        display: inline-block;
+    }
+ }
